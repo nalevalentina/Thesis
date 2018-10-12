@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt,twoside,openright]{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{frontespizio}
+
+
+\begin{document}
+
+
+\begin{frontespizio}
+	\Istituzione {Università di Verona}
+	\Divisione {Department of Computer Science}
+	\Scuola {Master's degree in Medical Bioinformatics}
+	\Titolo {****************************************}
+	\NCandidato {Candidate}
+	\Candidato [VR414647]{Valentina Nale}
+	\NRelatore {Thesis advisor}{}
+	\Relatore {}
+	\NCorrelatore {Research supervisor}{Research supervisors}
+	\Correlatore {}
+	\Correlatore {}
+	\Piede {Anno accademico 2017/2018}
+\end{frontespizio}
+
+
+\tableofcontents
+
+\chapter{Introduction}
+%\addcontentsline{toc}{chapter}{Introduction}
+\chaptermark{Introduction}
+Here I write a brief introduction about all these sections.
+
+	\section{Diffusion MRI}
+
+	\section{Tractography}
+
+	\section{Clustering fibers algorithms}
+
+	\section{QuickBundles algorithm}
+
+	\section{Remove outliers}
+
+\chapter{*** What I've done ***}
+\chaptermark{*** What I've done ***}
+
+\chapter{Results} %I hope
+\chaptermark{Results}
+
+\chapter{Conclusions}
+\chaptermark{Conclusions}
+
+
+\begin{thebibliography}{1}
+	\addcontentsline{toc}{chapter}{Bibliography}
+	\bibitem{one}
+	Paper 1
+	\bibitem{two}
+	Paper 2
+\end{thebibliography}
+
+
+
+\end{document}
